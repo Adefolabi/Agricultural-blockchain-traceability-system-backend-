@@ -1,0 +1,24 @@
+{
+  "name": "agri-traceability-backend",
+  "version": "1.0.0",
+  "description": "Backend API for agricultural produce traceability on Hyperledger Fabric",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.0",
+    "@hyperledger/fabric-gateway": "^1.5.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.22.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
